@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tourism.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:Tourism.WebAPI.AppExtension.ConfigureExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tourism.WebAPI.AppExtension.ConfigureExtension.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+            <param name="configuration"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Tourism.WebAPI.AppExtension.ConfigureServicesExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tourism.WebAPI.AppExtension.ConfigureServicesExtension.RegisterServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Tourism.WebAPI.Program">
+            <summary>
+            Program class
+            </summary>
+        </member>
+        <member name="M:Tourism.WebAPI.Program.Main(System.String[])">
+            <summary>
+            Main method for begin
+            </summary>
+            <param name="args">args</param>
+        </member>
+        <member name="M:Tourism.WebAPI.Program.CreateWebHostBuilder(System.String[])">
+            <summary>
+            Create host builder
+            </summary>
+            <param name="args">args</param>
+            <returns></returns>
+        </member>
+        <member name="T:Tourism.WebAPI.Startup">
+            <summary>
+            startup class 
+            </summary>
+        </member>
+        <member name="M:Tourism.WebAPI.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor 
+            </summary>
+            <param name="configuration">Cary all configuration for json files</param>
+        </member>
+        <member name="P:Tourism.WebAPI.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Tourism.WebAPI.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services">Contract for collections (ioc) </param>
+        </member>
+        <member name="M:Tourism.WebAPI.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app">Provide middleware</param>
+            <param name="env">Provide info about hosting</param>
+        </member>
+    </members>
+</doc>
